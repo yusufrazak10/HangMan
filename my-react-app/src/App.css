@@ -1,0 +1,82 @@
+/* General Styling */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Header Styling */
+.App-header h1 {
+  font-size: 3rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #333;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+/* Help Page Styling */
+.help-container {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Subtitle Styling */
+.help-container h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* List Styling */
+.help-container ul {
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 1rem;
+  color: #555;
+  text-align: left;
+}
+
+.help-container li {
+  margin: 10px 0;
+}
+
+/* Correct Answer Message */
+.correct-message {
+  color: #32CD32;
+  font-weight: bold;
+}
+
+/* Incorrect Answer Message */
+.incorrect-message {
+  color: #FF6347;
+  font-weight: bold;
+}
+
+/* Game Over Message */
+.game-over-message {
+  text-align: center;
+  font-size: 16px;
+  color: #B22222;
+  font-weight: bold;
+}
+
+/* Win Message */
+.win-message {
+  text-align: center;
+  font-size: 16px;
+  color: #32CD32;
+  font-weight: bold;
+}
+
+
+
+
